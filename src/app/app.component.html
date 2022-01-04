@@ -1,4 +1,16 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<nav>
+  <button>
+    <a
+      routerLink=""
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >About</a
+    >
+  </button>
+
+  <button>
+    <a routerLink="employees" routerLinkActive="active">Employees</a>
+  </button>
+</nav>
+
+<router-outlet></router-outlet>

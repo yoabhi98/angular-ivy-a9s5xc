@@ -1,3 +1,11 @@
 p {
   font-family: Lato;
 }
+a {
+  text-decoration: none;
+}
+
+a.active {
+  color: blue;
+  font-weight: bold;
+}
